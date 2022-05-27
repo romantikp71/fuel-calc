@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/formula.js"></script>
     <link rel="stylesheet" href="/styles/style.css">
-    <title>Fuel Calc</title>
+    <title>Fuel Calculator</title>
 </head>
 <body>
-    <h1 class="title">Fuel Calculator</h1>
+    <h1 class="title">Топливный калькулятор</h1>
     <div class="first-blok">
         <h3>Стоимость поездки</h3>
         <p>Расстояние</p>
@@ -19,12 +19,12 @@
         <p>Стоимость одного литра топлива</p>
         <p><input type="text" id="n3"> грн/литр</p>
         <button onclick="fuelPrice()">Подсчет</button>
-        <p>Необходимо топлива</p>
+        <p>Необходимо топлива (л.):</p>
         <p id="outL"><span> л.</span></p>
-        <p>Стоимость поездки</p>
+        <p>Стоимость поездки (грн. или любая другая валюта):</p>
         <p id="outP"><span> грн.</span></p>
-        <hr>
     </div>
+    <hr>
     <div class="two-blok">
         <h3>Расход топлива</h3>
         <p>Залито топлива</p>
@@ -32,10 +32,10 @@
         <p>Пройдено километров</p>
         <p><input type="text" id="n5"> км.</p>
         <button onclick="rashod()">Узнать расход</button>
-        <p>Расход топлива составил: </p>
-        <p id="outR"><span> л.</span></p>
-        <hr> 
+        <p>Расход топлива составил (л/100км.): </p>
+        <p id="outR"><span> л/100км.</span></p>
     </div>
+    <hr>
     <div class="third-blok">
         <h3>Насколько хватит топлива</h3>
         <p>Расход топлива: </p>
@@ -43,7 +43,7 @@
         <p>Залито топлива: </p>
         <p><input type="text" id="n7"> л.</p>
         <button onclick="distance()">Расчитать расстояние</button>
-        <p>Пройденое расстояние составит: </p>
+        <p>Пройденое расстояние составит (км.): </p>
         <p id="outD"><span> км.</span></p>
     </div>
 </body>
