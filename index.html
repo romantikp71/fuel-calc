@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/formula.js"></script>
-    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/Fuel_calc_JS/fuel-calc/formula.js"></script>
+    <script src="/Fuel_calc_JS/fuel-calc/parses.js"></script>
+    <link rel="stylesheet" href="/Fuel_calc_JS/fuel-calc/styles/style.css">
     <title>Fuel Calculator</title>
 </head>
 <body>
@@ -45,6 +46,54 @@
         <button onclick="distance()">Расчитать расстояние</button>
         <p>Пройденое расстояние составит (км.): </p>
         <p id="outD"><span> км.</span></p>
+    </div>
+    <h1 class="title">Cтоимость топлива на АЗС</h1>
+    <div>
+        <h3>Стоимость топлива</h3>
+        <table>
+            <tr>
+                <td>&nbsp;</td>
+                <td>95</td>
+                <td>95+</td>
+                <td>ДТ</td>
+                <td>ДТ+</td>
+            </tr>
+            <tr>
+                <td>ОККО</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ВОГ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>БРСМ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Shell</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Socar</td>
+                <td id="socar95"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>

@@ -41,3 +41,7 @@ function distance() {
 
     document.getElementById('outD').innerHTML = resultDist.toFixed(2);
 }
+
+
+
+

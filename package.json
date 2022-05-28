@@ -1,0 +1,27 @@
+{
+  "name": "fuel-calc",
+  "version": "1.0.0",
+  "description": "Project of fuel calculator in Ukraine.  In this moment only use for myself.",
+  "main": "formula.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romantikp71/fuel-calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romantikp71/fuel-calc/issues"
+  },
+  "homepage": "https://github.com/romantikp71/fuel-calc#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "puppeteer": "^14.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
